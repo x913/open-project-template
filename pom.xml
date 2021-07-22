@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!--    <parent>-->
+    <!--        <groupId>org.springframework.boot</groupId>-->
+    <!--        <artifactId>spring-boot-starter-parent</artifactId>-->
+    <!--        <version>2.3.1.RELEASE</version>-->
+    <!--    </parent>-->
+
+    <groupId>com.example</groupId>
+    <artifactId>skeleton-project</artifactId>
+    <version>0.0.1</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <!--Tools Modules-->
+<!--        <module>modules/toolsmodules/gentool</module>-->
+
+        <!--Core Modules-->
+        <module>modules/coremodules/common</module>
+        <module>modules/coremodules/coreweb</module>
+        <module>modules/coremodules/auth</module>
+        <module>modules/coremodules/acl</module>
+        <module>modules/coremodules/virtualfilesystem</module>
+        <module>modules/coremodules/cms</module>
+
+        <!--App Modules-->
+        <module>modules/appmodules/messaging</module>
+
+        <!--BootStrap Module-->
+        <module>app</module>
+    </modules>
+
+</project>
